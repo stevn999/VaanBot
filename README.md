@@ -36,15 +36,13 @@ As of right now, there are two commands.
 *Using a mixture of absolute and relative coordinates may not work as intended.*  
 ### Other notes
 - You are unable to place at 0 1 0 because of abuse in the past of people relentlessly killing me with nothing I could do
-- The banned blocks are **"magma_block", "wither_rose", "jigsaw", "kelp_plant", "brain_coral_block", "brain_coral_fan",
-  "brain_coral_wall_fan", "bubble_coral_block", "bubble_coral_fan", "bubble_coral_wall_fan", "dead_brain_coral_block",
-  "dead_brain_coral_fan", "dead_brain_coral_wall_fan", "dead_bubble_coral_block", "dead_bubble_coral_fan",
-  "dead_bubble_coral_wall_fan", "dead_fire_coral_block", "dead_fire_coral_fan", "dead_fire_coral_wall_fan",
-  "dead_horn_coral_block", "dead_horn_coral_fan", "dead_horn_coral_wall_fan", "dead_tube_coral_block",
-  "dead_tube_coral_fan", "dead_tube_coral_wall_fan", "fire_coral_block", "fire_coral_fan", "fire_coral_wall_fan",
-  "horn_coral_block", "horn_coral_fan", "horn_coral_wall_fan", "tube_coral_block", "tube_coral_fan",
-  "tube_coral_wall_fan", 'end_portal_frame', 'bedrock', 'cave_air', 'void_air', 'moving_piston', 'piston_head',
-  'tall_seagrass', 'bubble_column', 'lava', 'flowing_lava', 'end_portal', 'fire', 'barrier', 'structure_block',
-  'repeating_command_block', 'chain_command_block', 'structure_void', 'mob_spawner', 'spawner', 'command_block'
-**
+- The banned blocks are **magma_block, wither_rose, jigsaw, kelp_plant, brain_coral_block, brain_coral_fan, brain_coral_wall_fan, bubble_coral_block, bubble_coral_fan, bubble_coral_wall_fan, dead_brain_coral_block, dead_brain_coral_fan, dead_brain_coral_wall_fan, dead_bubble_coral_block, dead_bubble_coral_fan, dead_bubble_coral_wall_fan, dead_fire_coral_block, dead_fire_coral_fan, dead_fire_coral_wall_fan, dead_horn_coral_block, dead_horn_coral_fan, dead_horn_coral_wall_fan, dead_tube_coral_block, dead_tube_coral_fan, dead_tube_coral_wall_fan, fire_coral_block, fire_coral_fan, fire_coral_wall_fan, horn_coral_block, horn_coral_fan, horn_coral_wall_fan, tube_coral_block, tube_coral_fan, tube_coral_wall_fan, end_portal_frame, bedrock, cave_air, void_air, moving_piston, piston_head, tall_seagrass, bubble_column, lava, flowing_lava, end_portal, fire, barrier, structure_block, repeating_command_block, chain_command_block, structure_void, mob_spawner, spawner, command_block**
 
+##  !mcc
+!mcc [item] [x] [y] [z] [amount]
+
+| Component  | Use  | Example  |
+| :------------ | :------------ | :------------ |
+| item  | the type of [item](https://minecraft.gamepedia.com/Java_Edition_data_values#Items "Items") to put in the chest | diamond_sword, cooked_beef, anvil  | 
+| x, y, z  | the [coordinates](https://minecraft.gamepedia.com/Coordinates "coordinates") to put the block. Defaults to `0 2 0` | 0 200 0, 0 -1 0, ~250 ~64 ~232  |
+| amount | The amount of the selected item you want to appear in the chest | 1, 2, 64
