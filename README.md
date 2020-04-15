@@ -59,6 +59,7 @@ As of right now, there are two commands.
 - I cannot be bothered to add a list of all the items, so it will just do it's best to place whatever you type. No command feedback is given.
 
 #Installation
+
 Install node js https://nodejs.org/en/download/
 Open the info_.js file in a text editor and fill it out with the correct information
 rename info_.js to info.js
