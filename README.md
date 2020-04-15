@@ -9,7 +9,7 @@
 - I wanted to let my viewers have some fun and give them the ability to directly interact with the world I was playing in.
 
 ##### Is it okay to troll, and try to kill you?
-- It's fine, but I wont make it easy. I&apos;ve blacklisted some blocks and the ability to place blocks inside my head. So instant damage is out of the question. You can still suffocate me, take the floor out from under me and bury my in obsidian.
+- That's the point of the bot. For the audience to have fun. I don't care how you get your kicks.
 
 ------------
 
@@ -54,3 +54,6 @@ As of right now, there are two commands.
 | `!mcc stone f2 1` | Places a useless chest right in front of me|
 | `!mcc stone ~230 ~68 ~218 1`  | Places a chest in the world at coordinates 230 68 218 instead of relative to my own position 
 *Using a mixture of absolute and relative coordinates may not work as intended.*  
+
+### Other notes
+- I cannot be bothered to add a list of all the items, so it will just do it's best to place whatever you type. No command feedback is given.
