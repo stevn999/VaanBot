@@ -45,4 +45,12 @@ As of right now, there are two commands.
 | :------------ | :------------ | :------------ |
 | item  | the type of [item](https://minecraft.gamepedia.com/Java_Edition_data_values#Items "Items") to put in the chest | diamond_sword, cooked_beef, anvil  | 
 | x, y, z  | the [coordinates](https://minecraft.gamepedia.com/Coordinates "coordinates") to put the block. Defaults to `0 2 0` | 0 200 0, 0 -1 0, ~250 ~64 ~232  |
-| amount | The amount of the selected item you want to appear in the chest | 1, 2, 64
+| amount | The amount of the selected item you want to appear in the chest, defaults to 1 | 1, 2, 64
+
+### Common uses
+| Command  | Effect  |
+| :------------ | :------------ |
+| `!mcc diamond_sword 0 100 0` | Places a useful item way out of reach|
+| `!mcc stone f2 1` | Places a useless chest right in front of me|
+| `!mcc stone ~230 ~68 ~218 1`  | Places a chest in the world at coordinates 230 68 218 instead of relative to my own position 
+*Using a mixture of absolute and relative coordinates may not work as intended.*  
