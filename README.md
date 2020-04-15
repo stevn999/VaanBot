@@ -15,7 +15,7 @@
 
 #  Commands
 
-As of right now, there is one command.
+As of right now, there is two commands.
 
 ##  !mcp
 !mcp [block] [x] [y] [z] [dv]
