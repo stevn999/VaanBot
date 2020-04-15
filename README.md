@@ -9,7 +9,7 @@
 - I wanted to let my viewers have some fun and give them the ability to directly interact with the world I was playing in.
 
 ##### Is it okay to troll, and try to kill you?
-- It&apos;s fine, but I wont make it easy. I&apos;ve blacklisted some blocks and the ability to place blocks inside my head. So instant damage is out of the question. You can still suffocate me, take the floor out from under me and bury my in obsidian.
+- It's fine, but I wont make it easy. I&apos;ve blacklisted some blocks and the ability to place blocks inside my head. So instant damage is out of the question. You can still suffocate me, take the floor out from under me and bury my in obsidian.
 
 ------------
 
